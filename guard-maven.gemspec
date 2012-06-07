@@ -4,9 +4,9 @@ require File.expand_path('../lib/guard-maven/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Scott Dugas"]
   gem.email         = ["scottd@ripariandata.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Guard::Maven automatically packages maven when files are changed}
+  gem.summary       = %q{Guard::Maven automatically packages maven when files are changed}
+  gem.homepage      = "https://github.com/RiparianData/guard-maven"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
